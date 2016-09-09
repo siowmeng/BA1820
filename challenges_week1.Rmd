@@ -31,3 +31,4 @@ Can you modify the function so it calculate probability for a fair dice with an 
 
 Simulate rolling a dice 1000 times to test whether your function produces the right results.
 
+## Challenge 3
