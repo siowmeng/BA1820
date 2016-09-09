@@ -434,7 +434,7 @@ knitr::include_graphics("./img/1024px-Lim-secant.png")
 ## Illustration {.flexbox .vcenter}
 
 
-```{r, echo = FALSE, out.width = '85%', fig.retina = NULL}
+```{r, echo = FALSE, out.width = '85%', fig.retina = NULL, eval = FALSE}
 knitr::include_graphics("./img/Derivative_GIF.gif")
 ```
 
