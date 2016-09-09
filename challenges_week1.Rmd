@@ -20,7 +20,6 @@ Write a pull request.
 
 If your pull request is accepted (I might require some changes first), you win.
 
-This is a line for test.
 
 ## Challenge 2: The one with the dice
 
