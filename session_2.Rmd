@@ -611,13 +611,14 @@ cos_deriv(1:5)
 
 ## Derivatives in R (3)
 
-```{r, fig.align = "center", out.width = "60%"}
+```{r, fig.align = "center", out.width = "50%"}
 cd <- data.frame(x = seq(0, 10, by = 0.01), 
                  cos = as.numeric(cos_deriv(seq(0, 10, by = 0.01))), 
                  cos_prime = as.numeric(attr(cos_deriv(seq(0, 10, by = 0.01)),
                                              "gradient")))
 ggplot(data = cd, aes(x = x)) + 
-       geom_line(aes(y = cos), color="#FF3489") + geom_line(aes(y = cos_prime), color="#FF7645")
+       geom_line(aes(y = cos), color="#FF3489") + geom_line(aes(y = cos_prime),
+                                                            color="#FF7645")
 ```
 
 ## Derivatives in R (4): a better graph

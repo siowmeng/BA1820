@@ -3,10 +3,10 @@ title: "Session 1"
 author: "Antoine Vernet"
 subtitle: Statistics and Programming with R
 output:
-  beamer_presentation:
-    slide_level: 2
   ioslides_presentation:
     css: style.css
+  beamer_presentation:
+    slide_level: 2
 ---
 
 ```{r setup, echo = FALSE}
