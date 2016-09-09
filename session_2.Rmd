@@ -395,6 +395,9 @@ There are plenty of coding style guides around. I find the [one](http://adv-r.ha
 - Creating an RStudio project
 - Initializing a git repository using the RStudio integration
 - Create a remote with github or bitbucket
+  (Solution to the error message when in push:
+  1- click on the "Tools" menu and select "Shell", command: git push -u origin master
+  2- enter your github username and password)
 - A minimal script
 - A minimal RMarkdown document
 
