@@ -194,7 +194,7 @@ Let $\{{\bf x_1}, {\bf x_2}, ..., {\bf x_r}\}$ be a set of $n \times 1$ vectors.
 $${ \alpha_1 {\bf x_1} + \alpha_2 {\bf x_2} + ... + \alpha_r {\bf x_r} = {\bf 0} }$$
 implies that ${\alpha_1 = \alpha_2 = ... = \alpha_r = 0}$
 
-In case the set of vector is linearly dependent it means that at last one of the vectors can be written as a linear combination of the others.
+In case the set of vector is linearly dependent it means that at least one of the vectors can be written as a linear combination of the others.
 
 ## Rank
 
