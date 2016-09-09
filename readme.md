@@ -3,6 +3,12 @@
 
 This repository contains the material for the Statistics for Business Analytics class in the MSc Business Analytics at Imperial College Business School.
 
+## Contributors
+
+Steven Locorotondo 8-) Business Analytics 1617
+Louise Fallon Business Analytics 16-17
+Yilin Zhu Business Analytics 16-17
+
 ## Credits
 
 The gif of derivative was contributed by IkamusumeFan, wikipedia.org/wiki/File:Derivative_Gif.gif
@@ -35,7 +41,3 @@ The R logo is © 2016 The R Foundation, https://www.r-project.org/logo/
 The RStudio logo is © 2016 RStudio, https://www.rstudio.com/
 
 The MRO logo is © 2016 Microsoft R, https://mran.revolutionanalytics.com/open/
-
-Steven Locorotondo 8-) Business Analytics 1617
-
-Louise Fallon Business Analytics 16-17
