@@ -1,0 +1,18 @@
+/* For whatever reason my font family selector does not work. 
+But the h2, commented, does work*/
+/* * {
+  font-family: "Times New Roman", Times, serif !important;
+}*/
+
+/*h2 {
+  color: red
+}*/
+.col1 {
+ float:left;
+ width: 350px;
+}
+.col2 {
+ float:right;
+ width: 350px;
+
+}
