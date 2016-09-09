@@ -6,7 +6,9 @@ This repository contains the material for the Statistics for Business Analytics 
 ## Contributors
 
 Steven Locorotondo 8-) Business Analytics 1617
+
 Louise Fallon Business Analytics 16-17
+
 Yilin Zhu Business Analytics 16-17
 
 ## Credits
