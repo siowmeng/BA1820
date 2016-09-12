@@ -3,10 +3,10 @@ title: "Session 3"
 author: "Antoine Vernet"
 date: ''
 output:
-  ioslides_presentation:
-    css: style.css
   beamer_presentation:
     slide_level: 2
+  ioslides_presentation:
+    css: style.css
 subtitle: Derivatives | Probability | Statistics
 ---
 
@@ -520,6 +520,7 @@ It is defined for random variables $X$ and $Y$ as:
 
 $$
 \newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\Var}{\operatorname{Var}}
 \Cov(X, Y) = (X - \mu_X)(Y - \mu_Y)
 $$
 
@@ -530,12 +531,15 @@ It is denoted $\sigma_{XY}$ or . When $\sigma_{XY} \ge 0$, then on average, when
 Let $X$ and $Y$ be two random variables, and $a_1$, $a_2$ and $b_1$ and $b_2$ be constants,
 
 $$
+\newcommand{\Cov}{\operatorname{Cov}}
 \newcommand{\Var}{\operatorname{Var}}
-\Cov(a_1, X) = 0 \\
-\Cov(X, Y) = \Cov(Y, X)
-\Cov(X, X) = \Var(X)
-\Cov(a_1 X, a_2 Y) = a_1 a_2 \Cov(X, Y)
-\Cov(X + b_1, Y + b_2) = \Cov(X, Y)
+\begin{aligned}
+\Cov(a_1, X) &= 0 \\
+\Cov(X, Y) &= \Cov(Y, X) \\
+\Cov(X, X) &= \Var(X) \\
+\Cov(a_1 X, a_2 Y) &= a_1 a_2 \Cov(X, Y) \\
+\Cov(X + b_1, Y + b_2) &= \Cov(X, Y)
+\end{aligned}
 $$
 
 ## Example of covariance
