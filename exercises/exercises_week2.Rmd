@@ -1,0 +1,109 @@
+---
+title: "Exercises"
+author: ''
+date: ''
+output:
+  pdf_document: default
+  html_document: default
+subtitle: Week 2
+---
+
+## Exercise 1: Expected values
+
+
+1. The code below creates a sample of integer. Calculate the mean, and the variance for this distribution.
+What happens if you modify the code to increase the number of samples?
+
+```{r}
+set.seed(16092016)
+spl <- sample(0:100, size = 100, replace = TRUE)
+# Put your code in here
+
+```
+
+
+## Exercise 2: Movie going in France
+
+Open the `market.RData` file. This dataset record information about the French movie market. There are 5 variables.
+
+|Variable|Description|
+|:-------|:----------|
+|`year`  |Year of record|
+|`screenings`|Number of screenings taking place in the country on that year|
+|`tickets`|Number of tickets sold in the country on that year|
+|`revenues`|Global revenue from moviegoing for this year|
+
+The revenues have already been adjusted for inflation
+
+- Calculate the average revenue per ticket for each year on record.
+- Plot the average revenue per ticket over the time period.
+- Calculate the growth in the number of ticket sold from each year to the next.
+- Describe how revenue and tickets numbers have changed over the period.
+- Does the number of screening increase or decrease? Did it increase faster or slower than the number of ticket sold? What can you conclude?
+
+```{r}
+#load("./data/market.RData"")
+
+# Put your code in here
+
+```
+
+
+## Exercise 3: Pokémon
+
+1. What is the proportion of the class who played Pokémon Go?
+
+
+```{r}
+# Put your code in here
+
+```
+
+
+2. For those of you who played Pokémon Go, what proportion did walk more?
+
+
+```{r}
+# Put your code in here
+
+```
+
+3. What is the average time that people spent playing video game before downloading Pokémon Go?
+After?
+
+
+```{r}
+# Put your code in here
+
+```
+
+4. Calculate the average and the standard deviation of time spent watching TV, reading newspapers, reading books, browsing social media, doing sports and playing video games. What does it say about how the class spends its time?
+
+```{r}
+# Put your code in here
+
+```
+
+5. What is the difference in the average time girls and boys spend watching TV?
+
+```{r}
+# Put your code in here
+
+```
+
+6. Plot the distribution of TV watching time for boys and girls. Can you say anything about these distributions?
+
+```{r}
+# Put your code in here
+
+```
+
+7. Calculate correlations between TV watching time and reading newspapers. Now calculate the correlation separately for each gender. Can you conclude anything?
+
+```{r}
+# Put your code in here
+
+```
+
+
+

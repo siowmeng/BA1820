@@ -1,0 +1,14 @@
+---
+title: "Exercise Template"
+author: "Antoine Vernet"
+date: ""
+output: html_document
+---
+
+## Exercise 1
+
+
+
+## Exercise 2
+
+

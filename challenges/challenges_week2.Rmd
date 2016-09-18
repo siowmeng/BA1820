@@ -1,0 +1,31 @@
+---
+title: "Challenges"
+author: ''
+date: ''
+output:
+  html_document: default
+  pdf_document: default
+subtitle: Week 2
+---
+
+## Challenge 1: The one with the dice again
+
+Many dice game require several rolls with different conditions to win. Consider the following game: 
+
+- The first player rolls $n$ 6-sided dice. He needs to obtain a score of 4 or above on each die if he is to be allowed to roll this die again in the second roll. 
+- In the second roll, he then rolls $m$ dice with $m$ the number of dice that had landed on 4, 5 or 6. Again he needs to roll 4 or above in order to get his opponent to roll any given dice in the 3 round. 
+- If any dice is left after those two rounds, the opponent rolls those dice (the ones which landed on 4, 5 or 6) and needs to obtain 3 or above. 
+- The number of dice rolled in that third round which show a number below 3 (then, either 1 or 2) are the number of points the first player scores.
+
+1. Can you create one or several functions that simulate this situation?
+
+2. Can you allow the score to be obtained on each dice to vary (i.e. needing 3 on the first roll, but 5 on the second roll)?
+
+3. If the first player is rolling 10 dice and the last roll needs to be 2 or above, what is the highest face number that roll 1 and 2 can be set at in order for the player to score 1 point or more with a 50% probability (if the probability is not exactly 50%, what is the setting that yield the probability closest to 50%)?
+
+
+## Challenge 2: The one with the Pokémon
+
+Use the Pokémon Go data to explore media usage (including Pokémon Go) of yourself and your classmates.
+You should aim to tell a story with the data. For example, do usage vary by gender? What type of usage co-occur? Anything interesting you can tell me about the _profile_ of Pokémon Go players in the class?
+For this challenge, you need to turn in a .Rmd file that weave together text and the tables and figures that you generate with R code.
